@@ -17,7 +17,7 @@ node {
 
   stage('Archive') {
     git([
-      url: env.GIT_URL ? env.GIT_URL : 'https://github.com/venicegeo/dg-pz-search-metadata-inget',
+      url: env.GIT_URL ? env.GIT_URL : 'https://github.com/venicegeo/dg-pz-search-metadata-ingest',
       branch: "master"
     ])
     sh """
